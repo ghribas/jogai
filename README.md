@@ -75,7 +75,7 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 Para rodar o Jog.ai localmente, você precisará ter instalado:
 
 * **Git:** Para clonar o código.
-* **Python 3.8+:** Para o backend.
+* **Python 3.10:** Para o backend.
 * **Flutter SDK:** Para o frontend.
 * **Chave da Google AI API (Gemini):** Essencial para a funcionalidade da IA. Obtenha uma no [Google AI Studio](https://aistudio.google.com/).
 
