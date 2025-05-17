@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+celerybeat-schedule
+*.sage.py
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de instância Flask (se houver dados sensíveis)
+/backend/instance/
+# Arquivo de banco de dados SQLite (se não quiser versionar os dados)
+# Se você quiser versionar um DB inicial, comente a linha abaixo ou remova-a.
+/backend/app.db 
+
+# Flutter
+# Arquivos de build e ferramentas geradas
+/frontend/jog_ai_app/build/
+/frontend/jog_ai_app/.dart_tool/
+/frontend/jog_ai_app/.flutter-plugins
+/frontend/jog_ai_app/.flutter-plugins-dependencies
+/frontend/jog_ai_app/.packages # Gerado pelo pub, mas geralmente não versionado com .dart_tool
+/frontend/jog_ai_app/.pub-cache/
+/frontend/jog_ai_app/.pub/
+
+# Arquivos específicos de plataforma gerados (iOS, macOS, Linux, Windows)
+# Adicione/descomente conforme necessário para seu desenvolvimento
+# /frontend/jog_ai_app/ios/Pods/
+# /frontend/jog_ai_app/ios/Runner/GeneratedPluginRegistrant.h
+# /frontend/jog_ai_app/ios/Runner/GeneratedPluginRegistrant.m
+/frontend/jog_ai_app/**/ios/Flutter/.last_build_id
+# /frontend/jog_ai_app/ios/.symlinks/
+# /frontend/jog_ai_app/ios/Flutter/App.framework
+# /frontend/jog_ai_app/ios/Flutter/engine.framework
+# /frontend/jog_ai_app/ios/Flutter/flutter_assets/
+# /frontend/jog_ai_app/macos/Flutter/GeneratedPluginRegistrant.swift
+# /frontend/jog_ai_app/macos/.symlinks/
+# /frontend/jog_ai_app/linux/flutter/generated_plugin_registrant.h
+# /frontend/jog_ai_app/linux/flutter/generated_plugin_registrant.cc
+# /frontend/jog_ai_app/windows/flutter/generated_plugin_registrant.h
+# /frontend/jog_ai_app/windows/flutter/generated_plugin_registrant.cc
+
+# Documentação de API gerada
+/frontend/jog_ai_app/**/doc/api/
+
+# Symbolication e Obfuscation (Mapas e Símbolos de Debug)
+/frontend/jog_ai_app/app.*.symbols
+/frontend/jog_ai_app/app.*.map.json
+
+# Artefatos de build específicos do Android
+/frontend/jog_ai_app/android/app/debug/
+/frontend/jog_ai_app/android/app/profile/
+/frontend/jog_ai_app/android/app/release/
+
+# Arquivos de log do Flutter
+/frontend/jog_ai_app/trace.log
+/frontend/jog_ai_app/hotreload.json
+/frontend/jog_ai_app/flutter_build.log
+# /frontend/jog_ai_app/pubspec.lock # Geralmente é versionado para garantir builds consistentes.
+
+# Arquivos específicos de IDE e OS
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+nbproject/
+*.swp
+*~
+Thumbs.db 
