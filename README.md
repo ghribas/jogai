@@ -1,0 +1,97 @@
+# Jog.ai
+
+**Plataforma de Jogos em Texto Personalizados com IA**
+
+---
+
+Cansado de jogos com gráficos complexos e pouca profundidade? Que tal voltar às raízes da imaginação, onde a única limitação é a sua mente?
+
+Bem-vindo(a) ao **Jog.ai**, sua porta de entrada para infinitas aventuras textuais. Aqui, você não é apenas um jogador(a), mas o(a) co-autor(a) de histórias épicas, mistérios intrigantes ou jornadas fantásticas.
+
+**Como Funciona a Experiência do Usuário:**
+
+O processo é simples e poderoso: ao criar uma nova aventura, você define o ponto de partida — o tipo de jogo, o gênero, o cenário, a premissa inicial, e **até mesmo parâmetros como o público-alvo/idade recomendada**. Este "padrão" guiará a inteligência artificial, **impactando diretamente o tom, a complexidade e o conteúdo da narrativa**. A partir daí, nossa IA, impulsionada pelo **Google Gemini**, assume o papel de mestre de jogo, descrevendo o mundo, apresentando desafios, personagens e reagindo dinamicamente às suas ações e escolhas textuais.
+
+Sua resposta, suas decisões, moldam o futuro da história, criando uma narrativa única e imprevisível a cada nova interação. Cada jogo criado é uma sessão independente, permitindo que você explore diferentes mundos e narrativas simultaneamente.
+
+**Mais que um Jogo, um Estímulo para a Mente:**
+
+Jogar com Jog.ai é uma experiência que vai além do entretenimento. Ao mergulhar em descrições textuais ricas e interagir com a narrativa puramente pela leitura e escrita, você **estimula ativamente a leitura** e a **capacidade de foco e concentração**. A necessidade de imaginar os cenários, personagens e situações, e de formular suas ações de forma clara e criativa, **desperta e exercita a sua criatividade**. E a constante apresentação de escolhas e desafios que alteram o curso da história **aprimora suas habilidades de tomada de decisões** em um ambiente seguro e infinitamente adaptável.
+
+Prepare-se para ler, pensar, imaginar e decidir. O mundo da sua próxima aventura textual espera por você no Jog.ai!
+
+---
+
+## Sobre o Projeto
+
+Jog.ai é um sistema inovador que permite aos usuários criar e vivenciar aventuras de texto únicas, totalmente personalizadas e impulsionadas por inteligência artificial. Utilizando um backend robusto em Python e um frontend dinâmico em Flutter, Jog.ai oferece uma experiência de jogo adaptável onde cada sessão é um novo mundo esperando para ser explorado, com foco em engajar o usuário através da narrativa, das suas escolhas e da capacidade de **adaptar o conteúdo para diferentes faixas etárias**.
+
+---
+
+## Contexto do Projeto
+
+A ideia por trás do Jog.ai nasce da crença no poder intemporal das histórias contadas através do texto e da capacidade ilimitada da imaginação humana. Em um mundo cada vez mais dominado por estímulos visuais rápidos, buscamos reviver a magia das aventuras textuais, onde a leitura atenta e a capacidade de visualizar mentalmente são as chaves para a imersão.
+
+A inteligência artificial, em particular o Google Gemini, oferece uma oportunidade sem precedentes para tornar essas experiências mais dinâmicas, acessíveis e personalizáveis do que nunca. O Jog.ai é a ponte entre a tradição dos jogos em texto e o futuro da narrativa interativa impulsionada por IA, criando um espaço onde qualquer pessoa, **independentemente da idade**, pode ser o herói (ou co-criador) da sua própria saga única e apropriada.
+
+---
+
+## Funcionalidades Principais
+
+* **Cadastro e Autenticação de Usuários:** Acesso seguro à plataforma utilizando nome de usuário e senha.
+* **Sessões de Jogo Independentes:** Cada aventura criada funciona como um chat isolado, permitindo múltiplos jogos em andamento sem interferência.
+* **Criação de Jogos Personalizados com Controle de Narrativa:** Usuários podem definir o tema, gênero, cenário, premissa e outras instruções iniciais (padrões), incluindo **parâmetros para adaptar o tom e conteúdo da narrativa para diferentes públicos/idades**.
+* **Experiência de Jogo Orientada por IA:** A inteligência artificial **Google Gemini** interpreta as entradas textuais do usuário e gera a narrativa, diálogos, descrições e desafios em tempo real, adaptando-se ao contexto, às decisões do jogador e aos parâmetros de narrativa definidos pelo usuário.
+* **Interface Intuitiva:** Frontend desenvolvido em Flutter para proporcionar uma experiência de usuário moderna, responsiva e fácil de usar.
+* **Backend Robusto:** Lógica do sistema, gerenciamento de usuários e sessões de jogo, e comunicação com o banco de dados e a API da IA, implementados em Python.
+
+---
+
+## Stack Tecnológico
+
+* **Backend:** Python (com framework web para API RESTful, bibliotecas para autenticação, DB ORM e integração com a API Gemini).
+* **Frontend:** Flutter (para interface de usuário web/mobile).
+* **Banco de Dados:** **SQLite** (Um banco de dados leve e baseado em arquivo, ideal para desenvolvimento inicial e implantações mais simples).
+* **Inteligência Artificial:** Google Gemini API.
+
+---
+
+## Como Funciona (Visão Geral)
+
+1.  O usuário interage com a interface do Jog.ai através do aplicativo Frontend (Flutter).
+2.  Ações do usuário (cadastro, login, iniciar novo jogo, enviar mensagem em um jogo) disparam requisições para o Backend (Python).
+3.  O Backend processa as requisições:
+    * Realiza a autenticação e autorização dos usuários.
+    * Gerencia as sessões de jogo, salvando o estado e histórico da conversa no Banco de Dados (SQLite).
+    * Quando o usuário envia uma entrada durante um jogo, o Backend utiliza o histórico da conversa e o "padrão" definido para aquela sessão (incluindo parâmetros de idade/público) e os envia para a API do **Google Gemini**.
+    * A IA gera a resposta textual que continua a narrativa ou descreve o resultado da ação do usuário, **respeitando os parâmetros de narrativa definidos pelo usuário**.
+4.  O Backend envia a resposta gerada pela IA de volta para o Frontend.
+5.  O Frontend exibe a resposta da IA na tela de chat do jogo para o usuário.
+
+---
+
+## Pré-requisitos
+
+Para rodar o Jog.ai localmente, você precisará ter instalado:
+
+* **Git:** Para clonar o código.
+* **Python 3.8+:** Para o backend.
+* **Flutter SDK:** Para o frontend.
+* **Chave da Google AI API (Gemini):** Essencial para a funcionalidade da IA. Obtenha uma no [Google AI Studio](https://aistudio.google.com/).
+
+---
+
+## Começando
+
+Siga estes passos para colocar o Jog.ai rodando em sua máquina local. Certifique-se de ter todos os [Pré-requisitos](#pré-requisitos) instalados antes de prosseguir.
+
+Para o guia completo de instalação e configuração detalhada, consulte o arquivo [`SETUP.md`](SETUP.md).
+Para um guia rápido sobre como simplesmente rodar o sistema (assumindo que a configuração já foi feita), veja o arquivo [`HOWTORUN.md`](HOWTORUN.md).
+
+---
+
+## Licença
+
+Distribuído sob a Licença **MIT**. Veja o arquivo `LICENSE` para mais informações.
+
+---
