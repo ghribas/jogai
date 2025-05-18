@@ -23,7 +23,7 @@ Se está com dificuldades em acessar, envie um e-mail para ghribas@gmail.com.
 
 ---
 
-[![Watch the video](https://raw.githubusercontent.com/ghribas/jogai/main/frontend/jog_ai_app/web/logo/play-video.png)](https://youtu.be/PQy4ZUHv6V4){:target="_blank"}
+<a href="https://youtu.be/PQy4ZUHv6V4" target="_blank"><img src="https://raw.githubusercontent.com/ghribas/jogai/main/frontend/jog_ai_app/web/logo/play-video.png"></a>
 
 ## O Jog.AI
 
