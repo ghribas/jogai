@@ -97,9 +97,6 @@ Com as dependências instaladas, a API Key configurada e o DB inicializado, voc�
 
 #### Exemplo se usando Flask:
 Certifique-se de que a variável de ambiente FLASK_APP está definida, ou execute com: 
-```bash
-flask run
-```
 
 ##### Para macOS/Linux
 ```bash
