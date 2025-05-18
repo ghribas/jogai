@@ -32,8 +32,9 @@ Para instruções de configuração completas, incluindo instalação de pré-re
     *   Certifique-se de que o arquivo `backend/.env` existe.
     *   Este arquivo deve conter sua chave da API do Gemini, no formato: `GEMINI_API_KEY=SUA_CHAVE_AQUI`.
 
-5.  **Inicie o servidor Flask:**
+5.  **Carregue o banco de dados inicial e inicie o servidor Flask:**
     ```bash
+    flask db upgrade
     python app.py
     ```
     O servidor backend deverá iniciar e ficar acessível em `http://127.0.0.1:5000/` (ou a porta configurada).
