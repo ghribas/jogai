@@ -16,7 +16,7 @@ Antes de começar, certifique-se de que você tem o seguinte software instalado 
 Abra o terminal ou prompt de comando e clone o repositório do Jog.ai:
 
 ```bash
-git clone [https://github.com/ghribas/jogai/](https://github.com/ghribas/jogai/)
+git clone https://github.com/ghribas/jogai/
 ```
 ```bash
 cd jogai
