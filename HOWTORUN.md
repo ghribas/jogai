@@ -28,10 +28,10 @@ Para instruções de configuração completas, incluindo instalação de pré-re
     *(Se você utilizou um nome diferente para o ambiente virtual ou outro gerenciador como conda, ajuste o comando de ativação.)*
 
 
-4.  **Verifique o arquivo `.env` e `instale os requisitos`:**
+4.  **Verifique o arquivo `.env` e `Instale as Dependências do Backend`:**
     *   Certifique-se de que o arquivo `backend/.env` existe.
     *   Este arquivo deve conter sua chave da API do Gemini, no formato: `GEMINI_API_KEY=SUA_CHAVE_AQUI`.
-    *   Em seguida, `instale os requisitos`:
+    *   Em seguida, `Instale as Dependências do Backend`:
         ```bash
         pip.exe install -r requirements.txt
         ```
