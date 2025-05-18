@@ -70,11 +70,17 @@ Consulte a documentação específica da sua implementação de banco de dados n
 Com as dependências instaladas, a API Key configurada e o DB inicializado, você pode iniciar o servidor backend. O comando exato depende do framework Python que você está usando (Flask, FastAPI, etc.).
 
 # Exemplo se usando Flask:
-# Certifique-se de que a variável de ambiente FLASK_APP está definida, ou execute com flask run
-# export FLASK_APP=app.py # Para macOS/Linux
-# set FLASK_APP=app.py # Para Windows
-# flask run
-# OU, como o arquivo app.py tem o app.run() configurado:
+Certifique-se de que a variável de ambiente FLASK_APP está definida, ou execute com flask run
+export FLASK_APP=app.py # Para macOS/Linux
+set FLASK_APP=app.py # Para Windows
+
+Carregue o banco de dados inicial:
+flask db upgrade
+
+-e depois:
+flask run
+
+- OU, como o arquivo app.py tem o app.run() configurado:
 python app.py
 
 # Exemplo se usando FastAPI (com uvicorn):
