@@ -1,6 +1,9 @@
-# Jog.ai
+<div align="center">
+    <img src="frontend\jog_ai_app\web\logo\logo-nomargin.png" height="128">
+    <h1 align="center">Jog.ai</h1>
+    <h2 align="center"> **Plataforma de Jogos em Texto Personalizados com IA**</h2>
+</div>
 
-**Plataforma de Jogos em Texto Personalizados com IA**
 
 ---
 
