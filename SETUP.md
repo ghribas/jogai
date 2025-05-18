@@ -73,6 +73,7 @@ Crie um arquivo chamado `.env` na **raiz do diretório do backend** (`./backend/
 GEMINI_API_KEY=SUA_CHAVE_DA_API_DO_GEMINI
 ```
 **Substitua `SUA_CHAVE_DA_API_DO_GEMINI` pela chave que você obteve no Google AI Studio.** Certifique-se de que o arquivo `.env` está incluído no seu arquivo `.gitignore` para evitar que a chave seja enviada para o repositório público.
+
 &nbsp;
 
 ### 2.4. Configurando o Banco de Dados (SQLite)
@@ -87,6 +88,7 @@ alembic upgrade head
 ```
 
 Consulte a documentação específica da sua implementação de banco de dados no código Python, caso haja um script de setup diferente.
+
 &nbsp;
 
 ### 2.5. Rodando o Servidor Backend
@@ -155,6 +157,7 @@ flutter pub get
 O Frontend precisa saber onde encontrar o Backend. O arquivo `lib/services/api_service.dart` no projeto Flutter está configurado para se comunicar com o backend em `http://127.0.0.1:5000/api`.
 
 Certifique-se de que seu servidor backend esteja rodando neste endereço e porta. Se você alterou a porta ou o host do backend, você precisará atualizar a variável `_baseUrl` no arquivo `frontend/jog_ai_app/lib/services/api_service.dart` correspondente.
+
 &nbsp;
 
 ### 3.3. Rodando o Aplicativo Frontend
