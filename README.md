@@ -7,8 +7,23 @@
     <p>E agora, bora lá para o projeto!</p>
 </div>
 
+---
+
+## Teste AO VIVO!
+
+[https://jog-ai.web.app/](https://jog-ai.web.app/)
+
+O teste demonstrativo permite que você crie uma conta, e tenha a experiência de jogo por texto.
+
+Foi disponibilizado no Render e Firebase, em planos gratuitos, e com a chave gratuita do Gemini, portanto instabilidades podem ocorrer.
+
+Se está com dificuldades em acessar, envie um e-mail para ghribas@gmail.com.
+
+&nbsp;
 
 ---
+
+## O Jog.AI
 
 Cansado de jogos com gráficos complexos e pouca profundidade? Que tal voltar às raízes da imaginação, onde a única limitação é a sua mente?
 
@@ -28,12 +43,16 @@ Jogar com Jog.ai é uma experiência que vai além do entretenimento. Ao mergulh
 
 Prepare-se para ler, pensar, imaginar e decidir. O mundo da sua próxima aventura textual espera por você no Jog.ai!
 
+&nbsp;
+
 ---
 
 
 ## Sobre o Projeto
 
 Jog.ai é um sistema inovador que permite aos usuários criar e vivenciar aventuras de texto únicas, totalmente personalizadas e impulsionadas por inteligência artificial. Utilizando um backend robusto em Python e um frontend dinâmico em Flutter, Jog.ai oferece uma experiência de jogo adaptável onde cada sessão é um novo mundo esperando para ser explorado, com foco em engajar o usuário através da narrativa, das suas escolhas e da capacidade de **adaptar o conteúdo para diferentes faixas etárias**.
+
+&nbsp;
 
 ---
 
@@ -57,6 +76,8 @@ Jog.ai é um sistema inovador que permite aos usuários criar e vivenciar aventu
     </tr>
 </table>
 
+&nbsp;
+
 ---
 
 
@@ -65,6 +86,8 @@ Jog.ai é um sistema inovador que permite aos usuários criar e vivenciar aventu
 A ideia por trás do Jog.ai nasce da crença no poder intemporal das histórias contadas através do texto e da capacidade ilimitada da imaginação humana. Em um mundo cada vez mais dominado por estímulos visuais rápidos, buscamos reviver a magia das aventuras textuais, onde a leitura atenta e a capacidade de visualizar mentalmente são as chaves para a imersão.
 
 A inteligência artificial, em particular o Google Gemini, oferece uma oportunidade sem precedentes para tornar essas experiências mais dinâmicas, acessíveis e personalizáveis do que nunca. O Jog.ai é a ponte entre a tradição dos jogos em texto e o futuro da narrativa interativa impulsionada por IA, criando um espaço onde qualquer pessoa, **independentemente da idade**, pode ser o herói (ou co-criador) da sua própria saga única e apropriada.
+
+&nbsp;
 
 ---
 
@@ -78,6 +101,8 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 * **Interface Intuitiva:** Frontend desenvolvido em Flutter para proporcionar uma experiência de usuário moderna, responsiva e fácil de usar.
 * **Backend Robusto:** Lógica do sistema, gerenciamento de usuários e sessões de jogo, e comunicação com o banco de dados e a API da IA, implementados em Python.
 
+&nbsp;
+
 ---
 
 
@@ -87,6 +112,8 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 * **Frontend:** Flutter (para interface de usuário web/mobile).
 * **Banco de Dados:** **SQLite** (Um banco de dados leve e baseado em arquivo, ideal para desenvolvimento inicial e implantações mais simples).
 * **Inteligência Artificial:** Google Gemini API.
+
+&nbsp;
 
 ---
 
@@ -103,6 +130,8 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 4.  O Backend envia a resposta gerada pela IA de volta para o Frontend.
 5.  O Frontend exibe a resposta da IA na tela de chat do jogo para o usuário.
 
+&nbsp;
+
 ---
 
 
@@ -115,6 +144,8 @@ Para rodar o Jog.ai localmente, você precisará ter instalado:
 * **Flutter SDK:** Para o frontend.
 * **Chave da Google AI API (Gemini):** Essencial para a funcionalidade da IA. Obtenha uma no [Google AI Studio](https://aistudio.google.com/).
 
+&nbsp;
+
 ---
 
 
@@ -124,6 +155,8 @@ Siga estes passos para colocar o Jog.ai rodando em sua máquina local. Certifiqu
 
 Para o guia completo de instalação e configuração detalhada, consulte o arquivo [`SETUP.md`](SETUP.md).
 Para um guia rápido sobre como simplesmente rodar o sistema (assumindo que a configuração já foi feita), veja o arquivo [`HOWTORUN.md`](HOWTORUN.md).
+
+&nbsp;
 
 ---
 
