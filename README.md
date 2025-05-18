@@ -14,6 +14,8 @@ Cansado de jogos com gráficos complexos e pouca profundidade? Que tal voltar à
 
 Bem-vindo(a) ao **Jog.ai**, sua porta de entrada para infinitas aventuras textuais. Aqui, você não é apenas um jogador(a), mas o(a) co-autor(a) de histórias épicas, mistérios intrigantes ou jornadas fantásticas.
 
+<img src="frontend\jog_ai_app\web\logo\2-dashboard.png">
+
 **Como Funciona a Experiência do Usuário:**
 
 O processo é simples e poderoso: ao criar uma nova aventura, você define o ponto de partida — o tipo de jogo, o gênero, o cenário, a premissa inicial, e **até mesmo parâmetros como o público-alvo/idade recomendada**. Este "padrão" guiará a inteligência artificial, **impactando diretamente o tom, a complexidade e o conteúdo da narrativa**. A partir daí, nossa IA, impulsionada pelo **Google Gemini**, assume o papel de mestre de jogo, descrevendo o mundo, apresentando desafios, personagens e reagindo dinamicamente às suas ações e escolhas textuais.
@@ -28,11 +30,35 @@ Prepare-se para ler, pensar, imaginar e decidir. O mundo da sua próxima aventur
 
 ---
 
+
 ## Sobre o Projeto
 
 Jog.ai é um sistema inovador que permite aos usuários criar e vivenciar aventuras de texto únicas, totalmente personalizadas e impulsionadas por inteligência artificial. Utilizando um backend robusto em Python e um frontend dinâmico em Flutter, Jog.ai oferece uma experiência de jogo adaptável onde cada sessão é um novo mundo esperando para ser explorado, com foco em engajar o usuário através da narrativa, das suas escolhas e da capacidade de **adaptar o conteúdo para diferentes faixas etárias**.
 
 ---
+
+
+## Telas do Projeto
+
+<table>
+    <tr>
+        <td><img src="frontend\jog_ai_app\web\logo\1-login.png"></td>
+        <td><img src="frontend\jog_ai_app\web\logo\2-dashboard.png"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><img src="frontend\jog_ai_app\web\logo\3-criar-novo.png"></td>
+    </tr>
+    <tr>
+        <td><img src="frontend\jog_ai_app\web\logo\4-novo-jogo.png"></td>
+        <td><img src="frontend\jog_ai_app\web\logo\7-menu-rapido-aventuras.png"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><img src="frontend\jog_ai_app\web\logo\6-aventura.png"></td>
+    </tr>
+</table>
+
+---
+
 
 ## Contexto do Projeto
 
@@ -41,6 +67,7 @@ A ideia por trás do Jog.ai nasce da crença no poder intemporal das histórias 
 A inteligência artificial, em particular o Google Gemini, oferece uma oportunidade sem precedentes para tornar essas experiências mais dinâmicas, acessíveis e personalizáveis do que nunca. O Jog.ai é a ponte entre a tradição dos jogos em texto e o futuro da narrativa interativa impulsionada por IA, criando um espaço onde qualquer pessoa, **independentemente da idade**, pode ser o herói (ou co-criador) da sua própria saga única e apropriada.
 
 ---
+
 
 ## Funcionalidades Principais
 
@@ -53,6 +80,7 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 
 ---
 
+
 ## Stack Tecnológico
 
 * **Backend:** Python (com framework web para API RESTful, bibliotecas para autenticação, DB ORM e integração com a API Gemini).
@@ -61,6 +89,7 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 * **Inteligência Artificial:** Google Gemini API.
 
 ---
+
 
 ## Como Funciona (Visão Geral)
 
@@ -76,6 +105,7 @@ A inteligência artificial, em particular o Google Gemini, oferece uma oportunid
 
 ---
 
+
 ## Pré-requisitos
 
 Para rodar o Jog.ai localmente, você precisará ter instalado:
@@ -87,6 +117,7 @@ Para rodar o Jog.ai localmente, você precisará ter instalado:
 
 ---
 
+
 ## Começando
 
 Siga estes passos para colocar o Jog.ai rodando em sua máquina local. Certifique-se de ter todos os [Pré-requisitos](#pré-requisitos) instalados antes de prosseguir.
@@ -95,6 +126,7 @@ Para o guia completo de instalação e configuração detalhada, consulte o arqu
 Para um guia rápido sobre como simplesmente rodar o sistema (assumindo que a configuração já foi feita), veja o arquivo [`HOWTORUN.md`](HOWTORUN.md).
 
 ---
+
 
 ## Licença
 
