@@ -506,4 +506,8 @@ if __name__ == '__main__':
     # Cria o banco de dados se não existir (para desenvolvimento)
     with app.app_context():
         db.create_all()
-    app.run(debug=True, host='0.0.0.0') 
+    # Ao rodar em plataformas como Streamlit Community Cloud, 
+    # o debug=True e o reloader padrão podem causar problemas de 'signal'.
+    # É melhor desabilitá-los ou controlá-los por variáveis de ambiente.
+    # Para uma correção direta do erro de signal:
+    app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False) 
