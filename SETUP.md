@@ -7,7 +7,7 @@ Este documento fornece um guia passo a passo para configurar e rodar o sistema J
 Antes de começar, certifique-se de que você tem o seguinte software instalado em sua máquina:
 
 * **Git:** Para clonar o repositório do projeto. Se não tiver, baixe e instale a partir de [https://git-scm.com/](https://git-scm.com/).
-* **Python 3.8 ou superior:** Para o backend. Baixe e instale a partir de [https://www.python.org/downloads/](https://www.python.org/downloads/). É altamente recomendável usar um gerenciador de ambientes virtuais (venv, virtualenv, conda).
+* **Python 3.8 ou superior (3.10 recomendada):** Para o backend. Baixe e instale a partir de [https://www.python.org/downloads/](https://www.python.org/downloads/). É altamente recomendável usar um gerenciador de ambientes virtuais (venv, virtualenv, conda).
 * **Flutter SDK:** Para o frontend. Siga o guia de instalação oficial do Flutter para o seu sistema operacional: [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install).
 * **Uma chave da Google AI API (para o Gemini):** Você precisará desta chave para que o backend possa interagir com a IA. Obtenha sua chave gratuitamente no [Google AI Studio](https://aistudio.google.com/).
 
