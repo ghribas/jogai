@@ -96,6 +96,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'JogAI',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: colorScheme, // Usando o ColorScheme definido
           visualDensity: VisualDensity.adaptivePlatformDensity,
