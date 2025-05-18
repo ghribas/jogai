@@ -151,6 +151,12 @@ class MyApp extends StatelessWidget {
             final chatId = int.tryParse(chatIdString);
             page = AuthWrapper(chatListScreenBuilder: (_, id) => chatListBuilder(id), initialChatId: chatId);
           } 
+          // Adicionando tratamento para '/chat' sem ID
+          else if (uri.path == '/chat') { 
+            // Se a rota for apenas /chat, tratar como se fosse a rota raiz/dashboard
+            debugPrint("Rota '/chat' detectada sem ID, redirecionando para o dashboard.");
+            page = AuthWrapper(chatListScreenBuilder: (_, id) => chatListBuilder(id)); // initialChatId será null
+          }
           else if (uri.path == '/' || uri.path == '/dashboard') {
             page = AuthWrapper(chatListScreenBuilder: (_, id) => chatListBuilder(id)); // id será null
           }
