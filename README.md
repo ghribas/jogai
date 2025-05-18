@@ -23,6 +23,8 @@ Se está com dificuldades em acessar, envie um e-mail para ghribas@gmail.com.
 
 ---
 
+[![Watch the video](https://raw.githubusercontent.com/ghribas/jogai/main/frontend/jog_ai_app/web/logo/play-video.png)](https://youtu.be/PQy4ZUHv6V4)
+
 ## O Jog.AI
 
 Cansado de jogos com gráficos complexos e pouca profundidade? Que tal voltar às raízes da imaginação, onde a única limitação é a sua mente?
