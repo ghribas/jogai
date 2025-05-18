@@ -21,7 +21,14 @@ Se está com dificuldades em acessar, envie um e-mail para ghribas@gmail.com.
 
 &nbsp;
 
+## ATENÇÃO: 
+<a href="https://discord.com/channels/1369193715989614684/1369193716434337849/1373487540689961041" target="_blank">
+ **[ Clique para Votar no Discord ]**
+</a>
+
 ---
+
+&nbsp;
 
 <a href="https://youtu.be/PQy4ZUHv6V4" target="_blank"><img src="https://raw.githubusercontent.com/ghribas/jogai/main/frontend/jog_ai_app/web/logo/play-video.png"></a>
 
