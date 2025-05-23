@@ -2,10 +2,9 @@
     <img src="frontend\jog_ai_app\web\logo\logo-nomargin.png" height="128">
     <h1 align="center">Jog.ai</h1>
     <h2 align="center"> **Plataforma de Jogos em Texto Personalizados com IA**</h2>
-    <h3 align="center"> Criado durante a Imersão IA (Alura + Google Gemini)</h3>
-    <p>Tirando a ideia, que foi minha, <strong>TODO o projeto foi desenvolvido com o auxílio do Gemini</strong> 2.5 (Flash e Pro), desde a escolha das tecnologias usadas (Python + Flutter) até o código desenvolvido. Não sei programar em Flutter e só sei o beeem básico de Pythin. Eu mesmo não desenvolvi uma única linha de código, apenas fui orientando com prompts e descrevendo detalhadamente o que eu queria em cada parte do sistema, e o Gemini que realmente transformou em realidade. Só fui ajustando uma ou outra coisa seguindo as orientações do Gemini, e quando precisei entrar com a chave da API.</p>
-    <p>E agora, bora lá para o projeto!</p>
 </div>
+
+&nbsp;
 
 ---
 
@@ -21,16 +20,7 @@ Se está com dificuldades em acessar, envie um e-mail para ghribas@gmail.com.
 
 &nbsp;
 
-## ATENÇÃO: 
-<a href="https://discord.com/channels/1369193715989614684/1369193716434337849/1373487540689961041" target="_blank">
- **[ Clique para Votar no Discord ]**
-</a>
-
 ---
-
-&nbsp;
-
-<a href="https://youtu.be/PQy4ZUHv6V4" target="_blank"><img src="https://raw.githubusercontent.com/ghribas/jogai/main/frontend/jog_ai_app/web/logo/play-video.png"></a>
 
 ## O Jog.AI
 
